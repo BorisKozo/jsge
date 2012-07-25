@@ -14,11 +14,13 @@
         <script src="../../../vendor/jquery-1.7.2.js"></script>
         <script src="../../../app/jsge.js"></script>
         <script src="../../../app/game_loop.js"></script>
+        <script src="../../../app/sprite.js"></script>
 
         <script>
                 JSGE.tick = function(){
                     $("#fps-display").html("FPS: "+ JSGE.gameLoop.getFps());
                 }
+                JSGE.addSprite();
                 JSGE.start("main-screen");
         </script>
 

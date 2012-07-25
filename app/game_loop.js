@@ -1,6 +1,6 @@
 JSGE.gameLoop = function(){
     
-    var _interval = 33; //The interval that would be used for the main game loop (in ms)
+    var _interval = 32; //The interval that would be used for the main game loop (in ms)
     var _currentTick = 0; //The current tick of the game loop
     var _callback;
 
