@@ -16,10 +16,11 @@
         <script src="../../../app/game_loop.js"></script>
 
         <script>
+                JSGE.setScreen("main-screen");
                 JSGE.tick = function(){
                     $("#fps-display").html("FPS: "+ JSGE.gameLoop.getFps());
                 }
-                JSGE.start("main-screen");
+                JSGE.start();
         </script>
 
     </body>
