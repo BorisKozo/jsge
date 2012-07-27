@@ -1,4 +1,4 @@
-JSGE.Sprite = function(mainScreen){
+JSGE.Sprite = function(options){
   var div = $("<div></div>").css("background-color","yellow");
   div.css("z-index",100);
   div.css("width",10);

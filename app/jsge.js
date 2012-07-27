@@ -34,6 +34,11 @@ var JSGE = function() {
             _sprites.push(new JSGE.Sprite(_screen));
         },
         
+        getScreen:function(){
+            checkScreen();
+            return _screen;
+        }
+        
         ///override this function to get the game loop ticks
         tick: function(){}
     }
